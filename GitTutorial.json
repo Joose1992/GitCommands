@@ -1,0 +1,16 @@
+{
+    "Cloning a Repo":{
+        "git clone url":"clones the repo from the url you provide."
+    },
+    "Syncing with remotes":{
+        "git fetch origin master":"Fetch master from origin",
+        "git fetch origin":"fetch all objects from origin",
+        "git fetch":"shortcut for git fetch origin",
+        "git pull":"fetch + merge",
+        "git push origin master":"pushes master to origin",
+        "git push":"shortcut for git push origin master"
+    },
+    "sharing tags":{
+        
+    }
+}
