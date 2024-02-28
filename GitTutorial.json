@@ -11,6 +11,18 @@
         "git push":"shortcut for git push origin master"
     },
     "sharing tags":{
-        
+        "git push origin v1.0":"pushes tag v1.0 to origin",
+        "git push origin -delete v1.0": ""
+    },
+    "sharing branches":{
+        "git branch -r":"shows remotes tracking branches",
+        "git branch -vv":"shows local & remote tracking branch",
+        "git push -u origin bugfix":"pushes bugfix to origin",
+        "git push -d origin bugfix":"removes bugfix from origin"
+    },
+    "undoing commits":{
+        "git reset --soft HEAD^":"removes the last commit, keeps changes",
+        "git reset --mixed HEAD^":"unstage the changes as well",
+        "git reset --hard HEAD^":"discards local changes"
     }
 }
